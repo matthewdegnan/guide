@@ -187,7 +187,8 @@ user.avatarURL({ format: 'png', dynamic: true, size: 1024 });
 
 ### RichEmbed Constructor
 
-The RichEmbed constructor has been removed and now the `MessageEmbed` constructor is used. It is largely the same to use, the only differences being the removal of `richEmbed.attachFile` (`messageEmbed.attachFiles` accepts a single file as a parameter as well) and `richEmbed.addBlankField` and the addition of `messageEmbed.addFields`.
+The RichEmbed constructor has been removed and now the `MessageEmbed` constructor is used. It is largely the same to use, the only differences being the removal of `RichEmbed.attachFile()` and `RichEmbed.addBlankField()` along with the addition of `MessageEmbed.addFields()`.
+`MessageEmbed.attachFiles()` accepts a single file as a parameter as well to work the same as `RichEmbed.attachFile()`
 
 ### String Concatenation
 
